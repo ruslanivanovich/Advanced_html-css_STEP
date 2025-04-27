@@ -10,6 +10,10 @@
 
 @import './sections/header.scss';
 @import './sections/myclients.scss';
+@import './sections/contact.scss';
+@import './sections/whatido.scss';
+@import './sections/page-header.scss';
+
 
 
 
@@ -20,30 +24,16 @@
     padding: 0;
     box-sizing: border-box;
   }
-@import './helpers/reset.scss';
-@import './helpers/variables.scss';
-@import './helpers/mixin.scss';
+
 
 .container1{
     min-width: 320px;
     margin: 0 auto;
     box-sizing: border-box;
 }
-@import './sections/whatido.scss';
-@import './helpers/reset.scss';
-@import './helpers/mixin.scss';
-@import './helpers/variables.scss';
-
-
-@import './sections/page-header.scss';
 
 
 
 
-.container {
-    max-width: 1780px;
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-  }
+
   
