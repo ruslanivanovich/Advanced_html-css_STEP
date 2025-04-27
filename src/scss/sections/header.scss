@@ -1,0 +1,129 @@
+.header {
+    background-color: $primary_color;
+    
+  
+    .header__content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 54px;
+     
+    }
+  
+    .header__logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .header__logo-text {
+        font-family: 'Gilroy', sans-serif;
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 100%;
+        
+  
+      strong {
+        font-family: 'Gilroy-Medium', sans-serif;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 100%;
+        text-align: center;
+        text-transform: uppercase;
+
+
+        
+        display: inline-flex;
+        align-items: flex-start;
+      }
+    }
+  
+    .header__menu {
+      display: flex;
+      align-items: center;
+
+    }
+  
+    .header__menu-item {
+        font-family: 'Gilroy-SemiBold', sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 100%;
+        text-align: center;
+        
+        text-transform: uppercase;
+        color: #252525;
+    }
+
+
+    
+    @media (min-width: 768px) and (max-width: 1200px) {
+      .header__content {
+        padding-left: 31px;
+        padding-right: 31px;
+        padding-top: 54px;
+        padding-bottom: 40px;
+  
+    }
+    .header__logo-text {
+      font-size: 30px;     
+      strong {
+        font-size: 30px;
+      }
+  
+    }
+    .header__menu {
+      height: 28px;
+    }
+  
+    .header__menu-item {
+      font-size: 20px;      
+    }
+  
+    .header__logo {
+      gap: 8px;            
+    }
+  
+  
+    }
+
+    @media (min-width: 320px) and (max-width: 767px) {
+
+      .header__content {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 20px;
+      }
+
+      .header__logo-text {
+        display: none;
+      }
+      &__sv {
+        width: 91px;
+        height: 25px;
+        padding-left: 0;
+
+      }
+
+    
+        
+     
+
+    }
+
+  }
+
+
+
+
+  a {
+    text-decoration: none;
+    color: #252525;
+  }
+  
+
+
+  
+ 
+
+ 

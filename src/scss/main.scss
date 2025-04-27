@@ -1,2 +1,21 @@
 // * Це головний sass/scss файл проекту
 // * імпортуйте сюди всі інші ваші файли sass/scss
+
+@import './helpers/reset.scss';
+@import './helpers/variables.scss';
+@import './helpers/mixin.scss';
+
+
+
+
+@import './sections/header.scss';
+
+
+
+
+.container {
+    max-width: 1780px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
