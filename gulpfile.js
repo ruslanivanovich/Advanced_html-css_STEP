@@ -27,7 +27,7 @@ const cssTaskHandler = () => {
 
 const imagesTaskHandler = () => {
 	return src("./src/images/**/*.*")
-		.pipe(imagemin())
+		// .pipe(imagemin())
 		.pipe(dest("./dist/images"));
 };
 
@@ -46,7 +46,6 @@ const browserSyncTaskHandler = () => {
 		server: {
 			baseDir: "./dist",
 		},
-		browser: "chrome",
 	});
 
 	watch("./src/scss/**/*.scss").on(
