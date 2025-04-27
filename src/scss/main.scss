@@ -1,2 +1,12 @@
 // * Це головний sass/scss файл проекту
 // * імпортуйте сюди всі інші ваші файли sass/scss
+@import './helpers/reset.scss';
+@import './helpers/variables.scss';
+@import './helpers/mixin.scss';
+
+.container1{
+    min-width: 320px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+@import './sections/whatido.scss';

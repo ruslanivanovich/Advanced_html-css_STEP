@@ -1,0 +1,139 @@
+.whatido{
+    background-color: #F5F3EA;
+    &__bg{
+        background-image: url(../../images/bgim.png);
+        max-width: 478px;
+        margin: 0 auto;
+        height: 478px;
+        margin-bottom: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__wrapper{
+        max-width: 438px;
+        margin: 0 auto;
+        &-title{
+            font-family: 'Gilroy-Light', sans-serif;
+            font-weight: 200;
+            font-size: 80px;
+            line-height: 100%;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+            color: $dark-color;
+        }
+
+    }
+    
+    &__desc{
+        max-width: 438px;
+        margin: 0 auto;
+        border-bottom: 1px solid #252525;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        &:last-child{
+            border-bottom: none;
+        }
+        &-title{
+            font-family: 'Gilroy-Bold', sans-serif;
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            color: $dark-color;
+        }
+        &-info{
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: 0%;
+            color: $dark-color;
+
+        }
+    }
+    &__desc:nth-of-type(1) h2::before{
+        content: "01";
+        @include pseudoElements;
+    }
+    &__desc:nth-of-type(2) h2::before{
+        content: "02";
+        @include pseudoElements;
+    }
+    &__desc:nth-of-type(3) h2::before{
+        content: "03";
+        @include pseudoElements;
+    }
+    &__desc:nth-of-type(4) h2::before{
+        content: "04";
+        @include pseudoElements;
+    }
+}
+@media (min-width:768px) and (max-width: 1200px) {
+    .whatido{
+        &__bg{
+            max-width: 991px;
+            height: 991px;
+            margin-bottom: 40px;
+        }
+        &__wrapper{
+            max-width: 931px;
+            margin: 0 auto;
+            &-title{
+                font-size: 150px;
+            }
+
+        }
+        &__desc{
+            max-width: 931px;
+            margin: 0 auto;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            &-title{
+               font-size: 44px;
+               line-height: 48px;
+            }
+
+
+        }
+    }
+
+
+}
+@media (min-width:1200px) {
+    .whatido{
+        display: flex;
+        width: 100%;
+        column-gap: 111px;
+        &__bg{
+            max-width: none;
+            width: 50%;
+            height: auto;
+            margin-bottom: 0px;
+            background-repeat:no-repeat;
+            background-size:cover;
+        }
+        &__wrapper{
+            padding-right: 63px;
+            max-width: none;
+            width: 50%;
+            padding-top: 70px;
+            padding-bottom: 70px;
+            &-title{
+                font-size: 150px;
+            }
+
+        }
+        &__desc{
+            max-width: none;
+            &-title{
+                font-size: 44px;
+                line-height: 48px;
+             }
+           
+
+        }
+    }
+}
