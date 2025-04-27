@@ -29,3 +29,19 @@
     box-sizing: border-box;
 }
 @import './sections/whatido.scss';
+@import './helpers/reset.scss';
+@import './helpers/mixin.scss';
+@import './helpers/variables.scss';
+
+
+@import './sections/page-header.scss';
+
+
+
+.container {
+    max-width: 1780px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
