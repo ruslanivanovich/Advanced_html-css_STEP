@@ -27,6 +27,14 @@ The project uses **Gulp** to automate development tasks:
 ## 👥 Teamwork
 This project was developed in collaboration with another developer as a pair programming task.
 
+## 👨‍💻 My Contribution
+In this team project I was responsible for implementing the following sections:
+
+- **WHAT I DO**
+- **MY CLIENTS**
+- **CONTACTS**
+- **FOOTER**
+
 
 ## 🌐 Live Demo
 https://ruslanivanovich.github.io/Advanced_html-css_STEP/
